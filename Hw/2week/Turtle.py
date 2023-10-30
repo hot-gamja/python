@@ -1,0 +1,37 @@
+import turtle
+
+t = turtle.Turtle()
+t.shape("turtle")
+
+t.fillcolor("orange")
+t.begin_fill()
+t.goto(0,0)
+t.goto(300,0)
+t.goto(300,-300)
+t.goto(0,-300)
+t.goto(0,0)
+t.end_fill()
+
+t.penup()
+t.fillcolor("blue")
+t.goto(270,-270)
+t.pendown()
+t.begin_fill()
+t.goto(270,-100)
+t.goto(30,-100)
+t.goto(30,-270)
+t.goto(270,-270)
+t.end_fill()
+
+t.penup()
+t.fillcolor("pink")
+t.goto(210,-250)
+t.pendown()
+t.begin_fill()
+t.goto(210,-130)
+t.goto(60,-130)
+t.goto(60,-250)
+t.goto(210,-250)
+t.end_fill()
+
+turtle.done()
